@@ -1,0 +1,106 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background: #efeee7;
+  }
+  
+.header {
+    background: coral;
+    padding: 3px;
+    direction: ltr;
+}
+
+
+.container {
+    
+    width: 1040px;
+    margin: 0 auto;
+    background-color:white;
+    padding-bottom: 150px;
+    padding-top: 25px;
+    margin-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+    input[type=text], select, textarea {
+        width:100%;
+        padding: 12px; 
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+
+
+
+    }
+      
+      input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        paddin
+}
+
+
+p {
+margin-left: 240px;
+font-size: 20px;
+margin-top: 25px;
+margin-bottom: 25px;
+}
+
+
+#main-bio {
+    width: 960px;
+    float: left;
+}
+
+h1 {
+padding-left: 170px;
+width:825px;
+height: 5px;
+background-color: whitesmoke;
+
+
+}
+
+#bio-image {
+    float:left;
+    height: 200px;
+    width: 200px;
+    margin-top: 25px;
+}
+
+.topnav {
+background-color: coral;
+overflow: hidden;
+}
+
+.topnav a {
+float: right;
+text-align: center;
+padding: 10px 10px;
+margin-right: 80px;
+margin-bottom: 25px;
+color: #333;
+}
+
