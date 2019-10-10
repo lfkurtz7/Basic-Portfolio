@@ -3,23 +3,26 @@ body {
     margin: 0;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 18px;
-    line-height: 150%;
+    
     color: #333;
-    background: #efeee7;
+    background: #cfcfcf;
+    background-image: 
   }
   
 .header {
-    background: coral;
-    padding: 3px;
-    direction: ltr;
-}
+    background-color: black;
+    height: 70px;
+    padding: 15px;
+    
+    }
+
 
 
 .container {
     
     width: 1040px;
     margin: 0 auto;
-    background-color:white;
+    background-color:rgb(255, 255, 255);
     padding-bottom: 150px;
     padding-top: 25px;
     margin-top: 25px;
@@ -27,7 +30,8 @@ body {
     padding-right: 50px;
 }
 
-    input[type=text], select, textarea {
+
+    /* input[type=text], select, textarea {
         width:100%;
         padding: 12px; 
         border: 1px solid #cccccc;
@@ -42,7 +46,7 @@ body {
     }
       
       input[type=submit] {
-        background-color: #4CAF50;
+        background-color: rgb(175, 79, 76);
         color: white;
         padding: 12px 20px;
         border: none;
@@ -52,12 +56,16 @@ body {
       
       input[type=submit]:hover {
         background-color: #45a049;
-      }
+      } */
       
+      input {
+
+      }
+
       .container {
         border-radius: 5px;
         background-color: #f2f2f2;
-        paddin
+        
 }
 
 
@@ -75,32 +83,66 @@ margin-bottom: 25px;
 }
 
 h1 {
-padding-left: 170px;
-width:825px;
-height: 5px;
 background-color: whitesmoke;
+color: rgb(82, 82, 82);
+font-size: 40px;
+float: left;
+height: 100px;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: 165px;
+margin-top: 0px;
+}
 
+
+li {
 
 }
+
+ul {
+    list-style-type: none;
+    margin: 20px;
+}
+
+
 
 #bio-image {
     float:left;
     height: 200px;
     width: 200px;
     margin-top: 25px;
+    border: 2px solid;
 }
+
 
 .topnav {
-background-color: coral;
-overflow: hidden;
+    font-size: 22px;
+    margin-right: 55px;
+    margin: 50px;
+    
+     
 }
 
-.topnav a {
+
+
+
+.topnav a  {
 float: right;
-text-align: center;
-padding: 10px 10px;
+
 margin-right: 80px;
-margin-bottom: 25px;
-color: #333;
+margin-bottom: 45px;
+color: grey;
+text-decoration: none;
+
+}
+
+a:hover {
+text-decoration: underline;
+
+}
+
+#paragraph1 {
+margin-bottom: 50px;
+
 }
 
