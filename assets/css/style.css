@@ -6,7 +6,7 @@ body {
     
     color: #333;
     background: #cfcfcf;
-    background-image: 
+    background-image: url("../../assets/images/hotel-wallpaper.png");
   }
   
 .header {
@@ -30,36 +30,27 @@ body {
     padding-right: 50px;
 }
 
+#subject {
+    width: 1040px;
+    margin-bottom: 50px;
+    
+    
+}
 
-    /* input[type=text], select, textarea {
-        width:100%;
-        padding: 12px; 
-        border: 1px solid #cccccc;
-        border-radius: 4px;
+#country {
+margin-bottom: 50px;
+}
+
+          
+      input {
+        width: 100%;
+        padding: 12px 20px;
+        border: 1px solid white;
+        border-radius: 5px;
         box-sizing: border-box;
         margin-top: 6px;
         margin-bottom: 16px;
         resize: vertical;
-
-
-
-    }
-      
-      input[type=submit] {
-        background-color: rgb(175, 79, 76);
-        color: white;
-        padding: 12px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-      }
-      
-      input[type=submit]:hover {
-        background-color: #45a049;
-      } */
-      
-      input {
-
       }
 
       .container {
@@ -92,6 +83,8 @@ padding-left: 15px;
 padding-right: 15px;
 margin-left: 165px;
 margin-top: 0px;
+line-height: -10px;
+
 }
 
 
