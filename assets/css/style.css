@@ -139,23 +139,32 @@ margin-bottom: 50px;
 
 }
 
-.box-set {
-    position: relative;
-    align-items: center;
-    height: 400px;
+.work {
+float: left;
+
+
+
+}
     
-  }
   
-  .box {
-    width: 150px;
-    height: 150px;
-    background-image: url(https://via.placeholder.com/300/09f/fff.png);
-    
-  }
 
-  .box1 {
-    width: 300px;
-    height: 150px;
+ @media screen and (max-width: 640px){
+.container
 
 
-  }
+ }
+
+ @media screen and (max-width: 768px){
+.container
+
+
+ }
+ 
+@media screen and (max-width: 980px){
+.container
+
+
+
+}
+
+  
